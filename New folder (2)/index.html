@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+           background-color: aqua;
+        }
+        .left{
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .right{
+            display: inline-block;
+            padding-left: 75%;
+        }
+        li {
+            list-style: none;
+            display: inline;
+        }
+        .masterdiv{
+            position: relative;
+        }
+        .img{
+            z-index: -1;
+        }
+        .imgtext{
+            position: absolute;
+            top: 50%;
+            
+            right: 50%;
+            left: 10%;
+        }
+        .img1 {
+    display: inline-block;
+    }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+         <div class="left">
+            <h1>SCENZ.</h1>
+         </div>
+        <div class="right">
+            <ul>
+                <li>
+                    <a href="http://127.0.0.1:3002/index.html">home</a> |
+                    <a href="http://127.0.0.1:3002/contact.html">Contact us</a>
+                </li>
+            </ul>
+        </div>   
+    </header>
+    <main>
+        <div class="masterdiv">
+            <div class="img">
+                <img src="\laptop.jpg" height="100%" width="100%"  alt="">
+            </div>
+            <div class="imgtext">
+                <h1 style="color:rgb(47, 233, 233);" >SCENZ</h1>
+                <p style="color : rgb(149, 187, 187)" > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, consequatur? Veritatis eveniet aliquid, obcaecati totam, delectus itaque voluptates soluta a illum, vitae beatae.
+                </p>
+            </div>
+        </div>
+        <span class="img1">
+            <img width="496" height="890" src="\download.jpeg" alt="">
+            <div class="txt1">
+                <h3>Graphic Designer</h3>
+                <p>A Professional Designer With Working Experience</p>
+            </div>
+        </span>
+    </main>
+</body>
+</html>
